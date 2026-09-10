@@ -1,8 +1,8 @@
-import ShoppingBag from "../../assets/ShoppingBag.svg"
+import {  ShoppingCart } from 'lucide-react';
 const CartBtn = () => {
     return (
-        <div>
-            <img src={ShoppingBag} alt="" />
+        <div className='flex gap-4'>
+            <ShoppingCart />
         </div>
     )
 }

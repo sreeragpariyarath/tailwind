@@ -34,7 +34,7 @@ const NavItems = () => {
     ]
 
     return (
-        <div className="flex gap-4">
+        <div className="lg:flex gap-4 hidden">
             {
                 items.map(({ id, name, isActive }) => (
                     <div key={id} >
